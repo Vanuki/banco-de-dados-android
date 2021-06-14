@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_launcher_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SENHA"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STATUS"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/statusUsu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TIPO"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/tipoUsu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/btalterar"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#35B51F"
+            android:text="Alterar" />
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/btexcluir"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#DA1010"
+            android:text="Excluir" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

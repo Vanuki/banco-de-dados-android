@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/ic_launcher_background"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="ID"/>
+    <EditText
+        android:id = "@+id/nomeList"
+        android:layout_width = "match_parent"
+        android:layout_gravity="center"
+        android:layout_height = "wrap_content"
+        android:inputType = "text" />
+    <Button
+        android:id = "@+id/btPesquisarDep"
+        android:layout_width = "match_parent"
+        android:backgroundTint="#35B51F"
+        android:layout_height = "wrap_content"
+        android:text = "Pesquisar" />
+    <ListView
+        android:id="@+id/listaDepParam"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+</LinearLayout>

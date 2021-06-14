@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_launcher_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/lbUsuLogado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#26FF00"
+        android:gravity="center"
+        android:text="Usuário Logado: Ok"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Usuários"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/bt_listar_todos"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#1FB803"
+        android:text="Listar Todos os Usuários" />
+
+    <Button
+        android:id="@+id/bt_listar_parametro"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#1FB803"
+        android:text="Listar Usuário por Parametro" />
+
+    <Button
+        android:id="@+id/bt_novo"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#1FB803"
+        android:text="Novo Usuário" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Empresas"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+
+    <Button
+        android:id="@+id/bt_listar_todos_emp"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#575C81"
+        android:text="Listar Todas as Empresas" />
+
+    <Button
+        android:id="@+id/bt_listar_parametro_emp"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#575C81"
+        android:text="Listar Empresa por Parametro" />
+
+    <Button
+        android:id="@+id/bt_novo_emp"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#575C81"
+        android:text="Nova Empresa" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Departamentos"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/bt_listar_todos_dep"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#575C81"
+        android:text="Listar Todos os Departamentos" />
+
+    <Button
+        android:id="@+id/bt_listar_parametro_dep"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#575C81"
+        android:text="Listar Departamento por Parametro" />
+
+    <Button
+        android:id="@+id/bt_novo_dep"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#575C81"
+        android:text="Novo Departamento" />
+
+
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="70dp" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/bt_listar_todos_emp_dep"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Listar Todos os IDs" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/bt_listar_parametro_emp_dep"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Listar Empresa/Departamento por Parametro" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/bt_novo_emp_dep"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Novo Empresa/Departamento" />-->
+</LinearLayout>
